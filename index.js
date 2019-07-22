@@ -24,7 +24,7 @@ app.get("/users/:id", (req, res) => {
 });
 
 app.post("/users", (req, res) => {
-  const newUser = {
+  const newUser = { 
     _id: req.body._id,
     name: req.body.name,
     occupation: req.body.occupation,
